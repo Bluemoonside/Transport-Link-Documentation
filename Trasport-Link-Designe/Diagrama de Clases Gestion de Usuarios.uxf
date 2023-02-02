@@ -129,7 +129,7 @@ Maritimo</panel_attributes>
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>1010</x>
+      <x>890</x>
       <y>200</y>
       <w>80</w>
       <h>70</h>
@@ -143,20 +143,20 @@ Maritimo</panel_attributes>
     <coordinates>
       <x>770</x>
       <y>210</y>
-      <w>300</w>
+      <w>180</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
 m2=0..1
 tiene &gt;</panel_attributes>
-    <additional_attributes>280.0;10.0;10.0;30.0</additional_attributes>
+    <additional_attributes>160.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>230</x>
-      <y>220</y>
+      <x>310</x>
+      <y>210</y>
       <w>60</w>
       <h>90</h>
     </coordinates>
@@ -168,15 +168,15 @@ tiene &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
+      <x>330</x>
       <y>210</y>
-      <w>230</w>
-      <h>60</h>
+      <w>150</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
 m2=0..1
 tiene &gt;</panel_attributes>
-    <additional_attributes>10.0;30.0;210.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
   </element>
 </diagram>
