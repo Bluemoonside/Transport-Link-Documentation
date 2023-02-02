@@ -15,7 +15,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
+      <x>360</x>
       <y>340</y>
       <w>100</w>
       <h>40</h>
@@ -40,7 +40,7 @@ Maritimo</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
+      <x>650</x>
       <y>340</y>
       <w>100</w>
       <h>40</h>
@@ -53,13 +53,13 @@ Terrestre
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
+      <x>410</x>
       <y>260</y>
-      <w>110</w>
+      <w>140</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>90.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>120.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -77,31 +77,31 @@ Terrestre
     <coordinates>
       <x>570</x>
       <y>260</y>
-      <w>100</w>
+      <w>140</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;80.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>590</x>
-      <y>140</y>
-      <w>200</w>
-      <h>120</h>
+      <y>180</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..n
 m2=1
 tiene un &gt;</panel_attributes>
-    <additional_attributes>10.0;100.0;180.0;10.0</additional_attributes>
+    <additional_attributes>10.0;60.0;220.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>730</x>
-      <y>130</y>
+      <x>770</x>
+      <y>170</y>
       <w>100</w>
       <h>90</h>
     </coordinates>
@@ -151,14 +151,14 @@ tiene un &gt;</panel_attributes>
     <coordinates>
       <x>390</x>
       <y>370</y>
-      <w>130</w>
+      <w>120</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0...1
 m2=0...1
 asignado a  &gt;</panel_attributes>
-    <additional_attributes>10.0;110.0;40.0;10.0</additional_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -177,15 +177,41 @@ asignado a  &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
+      <x>690</x>
       <y>370</y>
-      <w>140</w>
+      <w>120</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0...1
 m2=0...1
 asignado a  &gt;</panel_attributes>
-    <additional_attributes>50.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>210</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+&lt; tiene una</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>280</x>
+      <y>200</y>
+      <w>60</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Tramo
+--</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
