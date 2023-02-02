@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>370</x>
-      <y>340</y>
+      <y>270</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -30,14 +30,41 @@
     <id>Relation</id>
     <coordinates>
       <x>460</x>
-      <y>330</y>
+      <y>280</y>
       <w>200</w>
-      <h>60</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=1
 &lt; tiene una</panel_attributes>
-    <additional_attributes>10.0;30.0;180.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;180.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>610</x>
+      <y>150</y>
+      <w>60</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Cliente
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>160</y>
+      <w>190</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1...n
+m2=1
+dueño de &gt;</panel_attributes>
+    <additional_attributes>10.0;110.0;170.0;10.0</additional_attributes>
   </element>
 </diagram>
